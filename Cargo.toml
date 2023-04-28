@@ -1,0 +1,2 @@
+[workspace]
+members = ["value-size", "value-size-derive"]
