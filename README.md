@@ -2,6 +2,8 @@
 
 ***Experimental*** helper library for memory-profiling Rust code.
 
+A fork of k8s-openapi that supports this library is available at https://github.com/stackabletech/k8s-openapi/tree/spike/value-size.
+
 ## Usage
 
 ```rust
