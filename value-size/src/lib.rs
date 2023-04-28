@@ -1,3 +1,5 @@
+#![doc = include_str!("../../README.md")]
+
 use std::collections::BTreeMap;
 
 pub use value_size_derive::Size;
@@ -63,7 +65,7 @@ impl Size for serde_json::Map<String, serde_json::Value> {
 }
 impl Size for String {
     fn indirect_size(&self) -> usize {
-        self.len()
+        self.capacity()
     }
 }
 
